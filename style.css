@@ -25,6 +25,7 @@ body {
   transform-style: preserve-3d;
   transform: skewX(-10deg);
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .cards:hover {
@@ -78,6 +79,7 @@ button {
   outline: none;
   border: none;
   background-color: rgba(218, 65, 38, 0.877);
+  cursor: pointer;
 }
 
 button:hover {
